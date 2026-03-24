@@ -5,6 +5,11 @@
       "options": {},
     },
   },
+  "permission": {
+    "edit": {
+      "packages/opencode/migration/*": "deny",
+    },
+  },
   "mcp": {
     "awslabs.aws-documentation-mcp-server": {
       "command": "uvx",
